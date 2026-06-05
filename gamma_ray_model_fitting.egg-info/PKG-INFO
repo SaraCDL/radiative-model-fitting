@@ -1,0 +1,50 @@
+Metadata-Version: 2.4
+Name: gamma-ray-model-fitting
+Version: 0.1.0
+Summary: Modular framework for gamma-ray spectral fitting, model selection, and visualization.
+Author: Sara Coutiño de León
+License: MIT
+Keywords: data-analysis,statistics,optimization,model-selection,python,astrophysics
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: astropy
+Requires-Dist: gammapy
+Requires-Dist: naima
+Dynamic: license-file
+
+# Gamma-Ray Spectral Model Fitting
+
+A modular Python framework for spectral model fitting, statistical model comparison, and scientific visualization.
+
+## Features
+
+- Power Law
+- Exponential Cutoff Power Law
+- Broken Power Law
+- Log-Parabola
+
+## Statistical Tools
+
+- χ²
+- Reduced χ²
+- AIC
+- AICc
+- BIC
+
+## Technologies
+
+- Python
+- NumPy
+- SciPy
+- Astropy
+- Matplotlib
+- Naima
+
+## Example
+
+python -m examples.fit_all_models

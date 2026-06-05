@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gamma-ray-model-fitting"
+version = "0.1.0"
+description = "Modular framework for gamma-ray spectral fitting, model selection, and visualization."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+authors = [
+{name = "Sara Coutiño de León"}
+]
+
+keywords = [
+"data-analysis",
+"statistics",
+"optimization",
+"model-selection",
+"python",
+"astrophysics"
+]
+
+dependencies = [
+"numpy",
+"scipy",
+"pandas",
+"matplotlib",
+"astropy",
+"gammapy",
+"naima"
+]
+
+[tool.setuptools]
+packages = ["src"]
+

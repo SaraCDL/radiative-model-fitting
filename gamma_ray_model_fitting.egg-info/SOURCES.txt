@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+gamma_ray_model_fitting.egg-info/PKG-INFO
+gamma_ray_model_fitting.egg-info/SOURCES.txt
+gamma_ray_model_fitting.egg-info/dependency_links.txt
+gamma_ray_model_fitting.egg-info/requires.txt
+gamma_ray_model_fitting.egg-info/top_level.txt
+src/__init__.py
+src/fitting.py
+src/io.py
+src/plotting.py
+src/statistics.py
